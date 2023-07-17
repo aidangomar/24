@@ -7,6 +7,20 @@
   pointer-events: none;
 }
 
+
+/* make card container show two cards in a row */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 20%;
+  height: 20%;
+  padding: 10px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
